@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+
+'''
+Write a Python program that reads both the YAML file and the JSON file created in exercise6 and pretty prints the data structure 
+that is returned.
+'''
 
 import yaml
 import json

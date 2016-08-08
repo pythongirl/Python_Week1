@@ -1,0 +1,62 @@
+GIT
+
+1. Create a GitHub account (it's free for public repositories).
+Created python girl account
+
+
+2. Create a repository for the work that you will do in this class.
+Created Python_Class1 repo
+
+
+3. Clone the repository that you just created on GitHub into your home directory in the lab environment.
+-git clone https://github.com/pythongirl/Python_Class1
+
+
+4. Add a file to the repository in the lab environment and then push it up to GitHub.
+Created test test_class1.py file
+-git add test_class1.py
+-git commit -m "Adding hello world file"
+-git push origin master
+
+
+5. Create a 'test' branch in your repository.
+-git branch test
+    a. Switch between the 'master' branch and the 'test' branch.
+    -git checkout test
+
+    b. Add a file to the 'test' branch.
+    Created test branch test_test_class1.py
+    -vi test_test_class1.py
+    -git add, commit, push 
+
+    c. Switch back to the 'master' branch.
+    git checkout master
+
+    d. Merge this 'test' branch into your 'master' branch.
+    -git merge test
+    -git push origin master
+
+
+
+YAML/JSON
+
+6. Write a Python program that creates a list. One of the elements of the list should be a dictionary with at least two keys. Write this list out to a file using both YAML and JSON formats. The YAML file should be in the expanded form.
+c1_e6.py file 
+
+
+7. Write a Python program that reads both the YAML file and the JSON file created in exercise6 and pretty prints the data structure that is returned.
+c1_e7.py file 
+
+
+ciscoconfparse
+
+8. Write a Python program using ciscoconfparse that parses this config file. Note, this config file is not fully valid (i.e. parts of the configuration are missing). The script should find all of the crypto map entries in the file (lines that begin with 'crypto map CRYPTO') and for each crypto map entry print out its children.
+c1_e8.py file 
+
+9. Find all of the crypto map entries that are using PFS group2
+c1_e9.py file 
+
+10. Using ciscoconfparse find the crypto maps that are not using AES (based-on the transform set name). Print these entries and their corresponding transform set name.
+c1_e10.py file 
+
+

@@ -1,4 +1,9 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python
+
+'''
+Using ciscoconfparse find the crypto maps that are not using AES (based-on the transform set name). Print these entries and their corresponding transform set name.
+'''
 
 from ciscoconfparse import CiscoConfParse
 
