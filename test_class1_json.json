@@ -1,0 +1,1 @@
+[0, 1, 2, 3, 4, 5, 6, "switches", "routers", {"ip": "1.1.1.1", "attrib": ["cpu", "memory", "capacity"], "os": "veos"}]
