@@ -22,3 +22,4 @@ with open ('test_class1_json.json', 'w') as f:
     f.write(json.dumps(my_list))
 #print "JSON format is: ", (json.dumps(my_list))
 
+#
